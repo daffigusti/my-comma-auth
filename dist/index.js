@@ -86,7 +86,7 @@ exports.config = config;
 
 
 function isAuthenticated() {
-  return true;//storage.isAuthed;
+  return storage.isAuthed;
 }
 
 exports.default = { init: init, logOut: logOut, isAuthenticated: isAuthenticated };
