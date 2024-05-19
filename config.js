@@ -5,7 +5,7 @@ if (typeof window !== 'undefined' && window.location) {
   service = window.location.host;
 }
 
-export const AUTH_PATH = '/auth/';
+export const AUTH_PATH = '/v2/auth/';
 
 export const GOOGLE_CLIENT_ID = '45471411055-ornt4svd2miog6dnopve7qtmh5mnu6id.apps.googleusercontent.com';
 export const GOOGLE_AUTH_ENDPOINT = 'https://accounts.google.com/o/oauth2/auth';
