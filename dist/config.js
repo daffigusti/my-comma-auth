@@ -16,7 +16,7 @@ if (typeof window !== 'undefined' && window.location) {
   service = window.location.host;
 }
 
-var AUTH_PATH = exports.AUTH_PATH = '/auth/';
+var AUTH_PATH = exports.AUTH_PATH = '/v2/auth/';
 
 var GOOGLE_CLIENT_ID = exports.GOOGLE_CLIENT_ID = '45471411055-ornt4svd2miog6dnopve7qtmh5mnu6id.apps.googleusercontent.com';
 var GOOGLE_AUTH_ENDPOINT = exports.GOOGLE_AUTH_ENDPOINT = 'https://accounts.google.com/o/oauth2/auth';
