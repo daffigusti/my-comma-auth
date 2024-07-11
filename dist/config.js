@@ -16,7 +16,7 @@ if (typeof window !== 'undefined' && window.location) {
   service = window.location.host;
 }
 
-var AUTH_PATH = exports.AUTH_PATH = '/auth/';
+var AUTH_PATH = exports.AUTH_PATH = '/v2/auth/';
 
 var GOOGLE_CLIENT_ID = exports.GOOGLE_CLIENT_ID = '45471411055-ornt4svd2miog6dnopve7qtmh5mnu6id.apps.googleusercontent.com';
 var GOOGLE_AUTH_ENDPOINT = exports.GOOGLE_AUTH_ENDPOINT = 'https://accounts.google.com/o/oauth2/auth';
@@ -47,9 +47,10 @@ var APPLE_OAUTH_PARAMS = exports.APPLE_OAUTH_PARAMS = {
 };
 var APPLE_REDIRECT_LINK = exports.APPLE_REDIRECT_LINK = APPLE_AUTH_ENDPOINT + '?' + _querystringify2.default.stringify(APPLE_OAUTH_PARAMS);
 
-var GITHUB_CLIENT_ID = exports.GITHUB_CLIENT_ID = 'Ov23liP7Y8jCaNhQxsjc';
+var GITHUB_CLIENT_ID = exports.GITHUB_CLIENT_ID = 'Ov23ligFQEzQDjbUVCWe';
 var GITHUB_AUTH_ENDPOINT = exports.GITHUB_AUTH_ENDPOINT = 'https://github.com/login/oauth/authorize';
-var GITHUB_REDIRECT_URI = exports.GITHUB_REDIRECT_URI = 'https://connect-api.duckdns.org/v2/auth/h/redirect/';
+var GITHUB_REDIRECT_URI = exports.GITHUB_REDIRECT_URI = 'https://connect-api.btu.app/v2/auth/h/redirect/';
+
 var GITHUB_OAUTH_PARAMS = {
   client_id: GITHUB_CLIENT_ID,
   redirect_uri: GITHUB_REDIRECT_URI,
